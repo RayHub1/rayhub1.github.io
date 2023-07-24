@@ -37,3 +37,19 @@ $(document).ready(function(){
      });
 
 })
+
+
+function downloadCV() {
+     // Replace the 'path/to/your/cv.pdf' with the actual path to your CV file
+     const cvFileUrl = "photos/mkpouto.pdf"
+
+     // Create a temporary anchor element
+     const link = document.createElement('a');
+     link.href = cvFileUrl;
+
+     // Set the download attribute with the desired file name
+     link.download = 'Mkpouto_Obot.pdf';
+
+     // Programmatically trigger the click event on the anchor element
+     link.click();
+   }

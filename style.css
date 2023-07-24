@@ -118,7 +118,7 @@ html{
     color: crimson;
     font-weight: 500;
   }
-  .home .home-content a{
+  .btn{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -130,7 +130,7 @@ html{
     transition: all 0.3s ease;
 
   }
-  .home .home-content a:hover{
+  .btn:hover{
     color: crimson;
     background: none;
   }
@@ -213,7 +213,7 @@ section .title::after{
 .about .about-content .right p{
   text-align: justify;
 }
-.about .about-content .right a{
+.btnn{
   display: inline-block;
     background: crimson;
     color: #fff;
@@ -226,7 +226,7 @@ section .title::after{
     transition: all 0.3s ease;
 
 }
-.about .about-content .right a:hover{
+.btnn:hover{
   color: crimson;
   background: none;
 }
@@ -318,6 +318,30 @@ section .title::after{
   margin-bottom: 5px;
   align-items: center;
   justify-content: space-between;
+}
+#info-word{
+  font-weight: bolder;
+}
+#info-word2{
+  font-weight: bolder;
+}
+#info-word3{
+  font-weight: bolder;
+}
+#info-word4{
+  font-weight: bolder;
+}
+#info-word5{
+  font-weight: bolder;
+}
+.fora{
+  display: flex;
+  flex-direction: column;
+}
+.fora a{
+  color: black;
+  text-transform: capitalize;
+  padding: 3px;
 }
 .skills .skills-content .right span{
 font-weight: 500;
