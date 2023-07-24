@@ -51,6 +51,20 @@ html{
   font-weight: 500;
   margin-left: 25px;
  }
+ .navbar .menu.active {
+  display: flex;
+  flex-direction: column; /* Change the direction to vertical */
+  position: absolute;
+  top: 100%; /* Position the menu below the navbar */
+  right: 0;
+  background-color:black; /* Set a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for a nice effect */
+  padding: 10px;
+}
+.navbar .menu.active li a {
+  color: #fff;
+}
+
 .navbar .menu li a:hover{
   color: white;
 }
@@ -322,6 +336,9 @@ section .title::after{
 #info-word{
   font-weight: bolder;
 }
+#free{
+  text-decoration: none;
+}
 #info-word2{
   font-weight: bolder;
 }
@@ -412,6 +429,9 @@ font-size: 18px;
 }
 .contact .contact-content .info .head{
   font-weight: 500;
+}
+.contact .contact-content .info a{
+  color: black;
 }
 .contact .contact-content .info .subtitle{
   color: #333;
