@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 function downloadCV() {
   // Replace the 'path/to/your/cv.pdf' with the actual path to your CV file
-  const cvFileUrl = "photos/mkpouto.pdf";
+  const cvFileUrl = "photos/Mkpouto.pdf";
 
   // Create a temporary anchor element
   const link = document.createElement("a");
