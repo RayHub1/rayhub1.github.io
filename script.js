@@ -21,7 +21,13 @@ $(document).ready(function () {
   });
   //typing animation script
   var typed = new Typed(".typing", {
-    strings: ["Freelancer", "Petroleum Engineer", "Web Developer"],
+    strings: [
+      "Petroleum Engineer",
+      "Web Developer",
+      "Data Analyst",
+      "Data Visualizer",
+      "Freelancer",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
