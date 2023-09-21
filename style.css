@@ -103,9 +103,8 @@ html {
 .home {
   display: flex;
   background: url(photos/gud-evening.jpg) no-repeat center;
-  height: 100vh;
+  height: 90vh;
   color: #111;
-  min-height: 500px;
   font-family: "ubuntu", sans-serif;
 }
 .home .max-width {
@@ -562,7 +561,7 @@ footer {
   }
   @media (max-width: 500px) {
     .home .home-content .text-2 {
-      font-size: 50px;
+      font-size: 35px;
     }
     .home .home-content .text-3 {
       font-size: 21px;
