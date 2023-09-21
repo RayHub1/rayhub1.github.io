@@ -447,6 +447,10 @@ footer {
   background: #111;
   padding: 20px 23px;
   color: #fff;
+  text-align: center;
+}
+footer span {
+  text-transform: capitalize;
 }
 footer span a {
   color: crimson;
@@ -454,9 +458,6 @@ footer span a {
 }
 footer span a:hover {
   text-decoration: underline;
-}
-footer {
-  text-align: center;
 }
 
 @media (max-width: 1300px) {
